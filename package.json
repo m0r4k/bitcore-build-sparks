@@ -1,5 +1,5 @@
 {
-  "name": "bitcore-build-sparks",
+  "name": "@sparksevo/bitcore-build-sparks",
   "version": "0.9.0",
   "description": "A helper for common tasks to build bitcore-sparks modules'",
   "main": "index.js",
@@ -37,9 +37,9 @@
   ],
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/sparkscoin/bitcore-build-sparks/issues"
+    "url": "https://github.com/sparkscoin/@sparksevo/bitcore-build-sparks/issues"
   },
-  "homepage": "https://github.com/sparkscoin/bitcore-build-sparks",
+  "homepage": "https://github.com/sparkscoin/@sparksevo/bitcore-build-sparks",
   "dependencies": {
     "brfs": "^1.4.3",
     "browserify": "^13.1.1",
