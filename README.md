@@ -1,4 +1,4 @@
-# @sparksevo/bitcore-build-sparks
+# bitcore-build-sparks
 
 A helper to add tasks to gulp.
 
@@ -7,14 +7,14 @@ A helper to add tasks to gulp.
 Install with:
 
 ```sh
-npm install @sparksevo/bitcore-build-sparks
+npm install bitcore-build-sparks
 ```
 
 and use and require in your gulp file: 
 
 ```javascript
 var gulp = require('gulp');
-var bitcoreTasks = require('@sparksevo/bitcore-build-sparks');
+var bitcoreTasks = require('bitcore-build-sparks');
 
 bitcoreTasks('submodule');
 gulp.task('default', ['lint', 'test', 'browser', 'coverage']);
@@ -25,7 +25,7 @@ gulp.task('default', ['lint', 'test', 'browser', 'coverage']);
 * There's no default task to allow for each submodule to set up their own configuration
 * If the module is node-only, avoid adding the browser tasks with:
 ```javascript
-var bitcoreTasks = require('@sparksevo/bitcore-build-sparks');
+var bitcoreTasks = require('bitcore-build-sparks');
 bitcoreTasks('submodule', {skipBrowsers: true});
 ```
 
